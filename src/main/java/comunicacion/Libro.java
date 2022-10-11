@@ -15,17 +15,26 @@ public Libro(String origen, String titulo, String autor, int paginas, String co_
 	this.interpretacion = interpretacion;
 }
 	// Getters
+public String getOrigen() {
+	return "Creacion";
+}
+public String getTitulo() {
+	return "El resplandor";
+}
+public String getAutor() {
+	return "Stephen King";
+}
+public int getPaginas() {
+	return 599;
+}
 	public String getCo_autor() {
-		return co_autor;	
+		return "N/A";	
 	}
 	public String getEditorial() {
-		return editorial;
+		return "Doubleday";
 	}
 	public String getEdicion() {
-		return edicion;
-	}
-	public String getInterpretacion() {
-		return interpretacion;
+		return "Primera";
 	}
 	public String interpretacion() {
 		return interpretacion;
