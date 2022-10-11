@@ -1,36 +1,29 @@
 package comunicacion;
 
-import java.util.ArrayList;
 
 public class Tesis extends Escrito{
 	private String idea;
-	private ArrayList<String> argumento = new ArrayList<>();
+	private String[] argumentos;
 	private String conclusion;
 	private String referencias;
 	private String interpretacion;
-	private int argole = argumento.size();
 	
-	public Tesis(String idea,  ArrayList argumento, String conclusion, String referencias, String interpretacion) {
+	public Tesis(String origen, String titulo, String autor, int paginas, String idea, String[] argumentos, String conclusion, String referencias, String interpretacion) {
 		super();
 		this.idea = idea;
-		this.argumento = argumento;
+		this.argumentos = argumentos;
 		this.conclusion = conclusion;
 		this.referencias = referencias;
 		this.interpretacion = interpretacion;
 	
-	}
-	
-	public Tesis(String string, String string2, String string3, int i, String string4, String[] strings, String string5,
-			String string6, String string7) {
-		// TODO Auto-generated constructor stub
 	}
 
 	// Getters
 	public String getIdea() {
 		return idea;
 	}
-	public int getArgumentos() {
-		return argole ;
+	public String[] getArgumentos() {
+		return argumentos ;
 	}
 	public String getConclusion() {
 		return conclusion;
@@ -45,8 +38,8 @@ public class Tesis extends Escrito{
 	public void setIdea(String idea) {
 		this.idea = idea;
 	}
-	public void setArgumento(ArrayList argumento) {
-		this.argumento = argumento;
+	public void setArgumentos(String[] argumentos) {
+		this.argumentos = argumentos;
 	}
 	public void setReferencias(String referencias) {
 		this.referencias = referencias;

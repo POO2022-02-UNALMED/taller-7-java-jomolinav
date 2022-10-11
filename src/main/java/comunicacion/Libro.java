@@ -7,8 +7,8 @@ protected String editorial;
 protected String edicion;
 protected  String interpretacion;
 
-public Libro(String co_autor, String editorial,
-		String edicion, int i, String interpretacion, String string, String string2, String string3) {
+public Libro(String origen, String titulo, String autor, int paginas, String co_autor, String editorial,
+		String edicion, String interpretacion) {
 	this.co_autor = co_autor;
 	this.editorial = editorial;
 	this.edicion = edicion;
