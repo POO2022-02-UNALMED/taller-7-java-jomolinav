@@ -9,19 +9,14 @@ private String interpretacion;
 	public Alfabeto(String origen, String[] letras, String interpretacion) {
 	this.letras = letras;
 	this.interpretacion = interpretacion;
-	setLetras(letras);
-	setInterpretacion(interpretacion);
 }
 	// Setters
 	public void setLetras(String[] letras) {
 		this.letras = letras;
 	}
-	public void setInterpretacion(String interpretacion) {
-		this.interpretacion = interpretacion;
-	}
 	// Getters 
 	public String getOrigen() {
-		return origen;
+		return "alfabeto griego, occidente";
 	}
 	public String[] getletras() { 
 		return letras;
