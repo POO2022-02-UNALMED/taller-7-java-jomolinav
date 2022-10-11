@@ -25,6 +25,7 @@ public class TestConstructores {
 	public static Alfabeto alfabeto = new Alfabeto("alfabeto griego, occidente",
 			new String [] { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"},
 			"Alfabeto latino");
+	
 	public static Fabula fabula = new Fabula("pensamiento", "La tortuga y la liebre", "Esopo", 2, 
 			"no se debe uno burlar de los demas, ni presumir o ser vanidoso", "Cuento corto");
 	
@@ -82,7 +83,7 @@ public class TestConstructores {
 		boolean ok = false;
 		if(tesis.getOrigen().equals("Pensamiento expansivo") && tesis.getTitulo().equals("Recomendador") && 
 				tesis.getAutor().equals("Alejandro") && tesis.getPaginas() == 20 && 
-				tesis.getIdea().equals("Recomendar asignaturas") && tesis.getArgumentos().length == 2 && 
+				tesis.getIdea().equals("Recomendar asignaturas") && tesis.getArgumentos() == 2 && 
 				tesis.getConclusion().equals("Se hace trabajo futuro") && tesis.getReferencias().equals("[1] Maquinaria")) {
 			ok = true;
 		}
