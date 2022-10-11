@@ -1,6 +1,6 @@
 package comunicacion;
 
-public class Alfabeto{
+public class Alfabeto extends Pictograma{
 
 private String letras;
 private String interpretacion;
@@ -35,7 +35,7 @@ private String interpretacion;
 		return interpretacion;
 }
 	public String toString() {
-		return "a" + "b" + "c" + "d" + "e" + "f" + "g" +" h" + "i" + "j" + "k" + "l" + "m" + "n" + "ñ" + "o" +"p" +"q" + "r" +"s" + "t" + "u" + "v" + "w" + "y" + "z";
+		return "A" + "B" + "C" + "D" + "E" + "F" + "G" +" H" + "I" + "J" + "K" + "L" + "M" + "N" + "O" +"P" +"Q" + "R" +"S" + "T" + "U" + "V" + "W" + "Y" + "Z";
 		
 }
 }
