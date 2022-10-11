@@ -15,6 +15,18 @@ public class Fabula extends Escrito{
 	
 	}
 	// Getters
+	public String getOrigen() {
+		return "pensamiento";
+	}
+	public String getTitulo() {
+		return titulo;
+	}
+	public String getAutor() {
+		return autor;
+	}
+	public int getPaginas() {
+		return paginas;
+	}
 	public String getEnsenanza() {
 		return ensenanza;
 	}
