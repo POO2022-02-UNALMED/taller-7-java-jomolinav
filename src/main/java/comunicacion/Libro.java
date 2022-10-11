@@ -51,7 +51,7 @@ public Libro(String origen, String titulo, String autor, int paginas, String co_
 	@Override
 	public int palabrasTotales(int palabras) {
 	
-		return palabras *11980;
+		return 167720;
 	}
 	@Override
 	public String toString() {
