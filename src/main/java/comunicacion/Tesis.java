@@ -57,7 +57,7 @@ public class Tesis extends Escrito{
 	@Override
 	public int palabrasTotales(int palabras) {
 
-		return palabras * 5;
+		return palabras * 100;
 	}
 	@Override
 	public String toString() {
