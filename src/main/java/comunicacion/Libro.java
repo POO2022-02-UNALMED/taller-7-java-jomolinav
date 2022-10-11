@@ -8,7 +8,7 @@ private String edicion;
 private String interpretacion;
 
 public Libro(String co_autor, String editorial,
-		String edicion, String interpretacion) {
+		String edicion, int i, String interpretacion, String string, String string2, String string3) {
 	this.co_autor = co_autor;
 	this.editorial = editorial;
 	this.edicion = edicion;

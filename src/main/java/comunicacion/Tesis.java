@@ -20,6 +20,11 @@ public class Tesis extends Escrito{
 		
 	}
 	
+	public Tesis(String string, String string2, String string3, int i, String string4, String[] strings, String string5,
+			String string6, String string7) {
+		// TODO Auto-generated constructor stub
+	}
+
 	// Getters
 	public String getIdea() {
 		return idea;
