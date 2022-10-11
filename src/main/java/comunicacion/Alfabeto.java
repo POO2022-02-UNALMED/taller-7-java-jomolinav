@@ -6,7 +6,7 @@ private String letras;
 private String interpretacion;
 
 	
-	public Alfabeto(String letras, String interpretacion) {
+	public Alfabeto(String letras, String[] strings, String interpretacion) {
 	this.letras = letras;
 	this.interpretacion = interpretacion;
 	setLetras(letras);
