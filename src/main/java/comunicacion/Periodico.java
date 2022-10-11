@@ -5,8 +5,8 @@ public class Periodico extends Escrito{
 	private String primicia;
 	private String interpretacion;
 	
-	public Periodico(String fecha, String primicia, 
-			String interpretacion, int i, String string, String string2, String string3) {
+	public Periodico(String origen, String titulo, String autor, int paginas, String fecha, String primicia, 
+			String interpretacion) {
 		super();
 		this.fecha = fecha;
 		this.primicia = primicia;
@@ -35,7 +35,7 @@ public class Periodico extends Escrito{
 	// Abstract Methods
 	@Override
 	public int palabrasTotales(int palabras) {
-		return 8400;
+		return (palabras *60);
 	}
 	@Override
 	public String toString() {
