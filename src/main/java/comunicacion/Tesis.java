@@ -10,7 +10,7 @@ public class Tesis extends Escrito{
 	private String interpretacion;
 	private int argole = argumento.size();
 	
-	public Tesis(String idea,  ArrayList argumento, String conclusion, String referencias, String interpretacion) {
+	public Tesis(String origen, String titulo, String autor, int paginas, String idea,  ArrayList argumento, String conclusion, String referencias, String interpretacion) {
 		super();
 		this.idea = idea;
 		this.argumento = argumento;
