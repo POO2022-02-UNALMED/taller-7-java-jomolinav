@@ -27,6 +27,9 @@ public Libro(String origen, String titulo, String autor, int paginas, String co_
 	public String getInterpretacion() {
 		return interpretacion;
 	}
+	public String interpretacion() {
+		return interpretacion;
+	}
 	// Setters
 	public void setCo_autor(String co_autor) {
 		this.co_autor = co_autor;
@@ -36,17 +39,12 @@ public Libro(String origen, String titulo, String autor, int paginas, String co_
 	}
 	public void setEdicion(String edicion) {
 		this.edicion = edicion;
-	}
-	public void setInterpretacion(String interpretacion) {
-		this.interpretacion = interpretacion;
+	
 	}
 	
 	// Methods
 	public int palabrasTotales() {
 		return 0;
-	}
-	public String interpretacion() {
-		return "Prueba";
 	}
 // Abstract Methods
 	

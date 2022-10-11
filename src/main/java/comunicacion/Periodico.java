@@ -33,12 +33,8 @@ public class Periodico extends Escrito{
 		this.interpretacion = interpretacion;
 	}
 	// Methods
-	
-	public int palabrasTotales() {
-		return 0;
-	}
 	public String interpretacion() {
-		return "Prueba";
+		return interpretacion;
 	}
 	
 	// Abstract Methods

@@ -51,7 +51,7 @@ public class Tesis extends Escrito{
 	
 	// Methods
 	public String interpretacion() {
-		return "Prueba";
+		 return interpretacion;
 	}
 	// Abstract Methods
 	@Override
