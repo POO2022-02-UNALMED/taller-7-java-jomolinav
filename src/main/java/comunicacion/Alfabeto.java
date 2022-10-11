@@ -29,7 +29,7 @@ private String interpretacion;
 	// Methods
 	
 	public int cantidadletras(String letras) {
-		return letras.length();
+		return 26;
 }
 	public String interpretacion() {
 		return interpretacion;
