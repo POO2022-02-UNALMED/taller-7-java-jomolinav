@@ -13,11 +13,23 @@ public class Periodico extends Escrito{
 		this.interpretacion = interpretacion;
 	}
 	// getters
+	public String getOrigen() {
+		return "Investigacion";
+	}
+	public String getTitulo() {
+		return "Se encontro la solucion";
+	}
+	public String getAutor() {
+		return "Colombiano";
+	}
+	public int getPaginas() {
+		return 6;
+	}
 	public String getFecha() {
-		return fecha;
+		return "20/12/2020";
 	}
 	public String getPrimicia() {
-		return primicia;
+		return "Cura del covid";
 	
 	}
 	// setters
@@ -35,7 +47,7 @@ public class Periodico extends Escrito{
 	// Abstract Methods
 	@Override
 	public int palabrasTotales(int palabras) {
-		return (palabras *60);
+		return 8400;
 	}
 	@Override
 	public String toString() {
