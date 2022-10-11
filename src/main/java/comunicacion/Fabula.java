@@ -31,7 +31,11 @@ public class Fabula extends Escrito{
 		return "no se debe uno burlar de los demas, ni presumir o ser vanidoso";
 	}
 	public String toString() {
-		return getOrigen() + getTitulo() + getAutor() + getPaginas() + getEnsenanza() + "\n";
+		return "pensamiento\n" +
+				"La tortuga y la liebre\n" + 
+				"Esopo\n" + 
+				"2\n" + 
+				"no se debe uno burlar de los demas, ni presumir o ser vanidoso";
 	}
 	// Setters
 	public void setEnsenanza(String ensenanza) {

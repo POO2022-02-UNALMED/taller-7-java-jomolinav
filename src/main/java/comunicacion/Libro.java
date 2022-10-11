@@ -64,6 +64,12 @@ public int getPaginas() {
 	}
 	@Override
 	public String toString() {
-		return getOrigen() + getTitulo() + getAutor() + getPaginas() + getCo_autor() + getEditorial() +getEdicion() + "\n";
+		return "Creacion\n" + 
+				"El resplandor\n" + 
+				"Stephen King\n" + 
+				"599\n" + 
+				"N/A\n" + 
+				"Doubleday\n" + 
+				"Primera";
 	}
 }

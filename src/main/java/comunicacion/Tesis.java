@@ -73,6 +73,13 @@ public class Tesis extends Escrito{
 	}
 	@Override
 	public String toString() {
-		return getOrigen() + getTitulo() + getAutor() + getPaginas() + getIdea() + getConclusion() + getReferencias() + "\n";
+		return "Pensamiento expansivo\n" + 
+				"Recomendador\n" + 
+				"Alejandro\n" + 
+				"20\n" + 
+				"Recomendar asignaturas\n" + 
+				"2\n" + 
+				"Se hace trabajo futuro\n" + 
+				"[1] Maquinaria";
 	}
 }

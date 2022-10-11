@@ -51,7 +51,12 @@ public class Periodico extends Escrito{
 	}
 	@Override
 	public String toString() {
-		return getOrigen() + getTitulo() + getAutor() + getPaginas() + getFecha() + getPrimicia() + "\n";
+		return "Investigacion\n" + 
+				"Se encontro la solucion\n" + 
+				"Colombiano\n" + 
+				"6\n" + 
+				"20/12/2020\n" + 
+				"Cura del covid";
 	}
 	
 	

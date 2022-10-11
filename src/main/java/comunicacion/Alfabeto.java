@@ -33,7 +33,6 @@ private String interpretacion;
 		return interpretacion;
 }
 	public String toString() {
-		return "A" + "B" + "C" + "D" + "E" + "F" + "G" +" H" + "I" + "J" + "K" + "L" + "M" + "N" + "O" +"P" +"Q" + "R" +"S" + "T" + "U" + "V" + "W" + "Y" + "Z";
-		
+		return ("A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z");		
 }
 }
