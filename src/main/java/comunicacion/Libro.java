@@ -2,10 +2,10 @@ package comunicacion;
 
 public class Libro extends Escrito{
 
-private String co_autor;
-private String editorial;
-private String edicion;
-private String interpretacion;
+protected  String co_autor;
+protected String editorial;
+protected String edicion;
+protected  String interpretacion;
 
 public Libro(String co_autor, String editorial,
 		String edicion, int i, String interpretacion, String string, String string2, String string3) {
@@ -51,7 +51,7 @@ public Libro(String co_autor, String editorial,
 // Abstract Methods
 	
 	@Override
-	int palabrasTotales(int palabras) {
+	public int palabrasTotales(int palabras) {
 	
 		return palabras *2;
 	}

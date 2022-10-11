@@ -65,7 +65,7 @@ public class Tesis extends Escrito{
 	}
 	// Abstract Methods
 	@Override
-	int palabrasTotales(int palabras) {
+	public int palabrasTotales(int palabras) {
 
 		return palabras * 5;
 	}

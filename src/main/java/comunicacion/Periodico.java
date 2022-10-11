@@ -43,7 +43,7 @@ public class Periodico extends Escrito{
 	
 	// Abstract Methods
 	@Override
-	int palabrasTotales(int palabras) {
+	public int palabrasTotales(int palabras) {
 
 		return palabras *10;
 	}

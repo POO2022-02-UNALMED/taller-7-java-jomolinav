@@ -33,7 +33,7 @@ public class Fabula extends Escrito{
 	}
 
 	// Abstract Methods
-	int palabrasTotales(int palabras) {
+	public int palabrasTotales(int palabras) {
 		
 		return palabras;
 	}
