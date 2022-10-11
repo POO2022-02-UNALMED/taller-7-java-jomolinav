@@ -29,7 +29,7 @@ public class Tesis extends Escrito{
 	public String getIdea() {
 		return idea;
 	}
-	public int getArgumentos(ArrayList argumento) {
+	public int getArgumentos() {
 		return argole ;
 	}
 	public String getConclusion() {
