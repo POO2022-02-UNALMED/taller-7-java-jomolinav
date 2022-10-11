@@ -20,6 +20,9 @@ private String interpretacion;
 		this.interpretacion = interpretacion;
 	}
 	// Getters 
+	public String getOrigen() {
+		return origen;
+	}
 	public String[] getletras() { 
 		return letras;
 		}
