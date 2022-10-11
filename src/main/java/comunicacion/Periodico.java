@@ -18,9 +18,7 @@ public class Periodico extends Escrito{
 	}
 	public String getPrimicia() {
 		return primicia;
-	}
-	public String getInterpretacion() {
-		return interpretacion;
+	
 	}
 	// setters
 	public void setFecha(String fecha) {
@@ -28,9 +26,6 @@ public class Periodico extends Escrito{
 	}
 	public void setPrimicia(String primicia) {
 		this.primicia = primicia;
-	}
-	public void setInterpretacion(String interpretacion) {
-		this.interpretacion = interpretacion;
 	}
 	// Methods
 	public String interpretacion() {
