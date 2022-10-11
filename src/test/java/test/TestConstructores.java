@@ -83,7 +83,7 @@ public class TestConstructores {
 		boolean ok = false;
 		if(tesis.getOrigen().equals("Pensamiento expansivo") && tesis.getTitulo().equals("Recomendador") && 
 				tesis.getAutor().equals("Alejandro") && tesis.getPaginas() == 20 && 
-				tesis.getIdea().equals("Recomendar asignaturas") && tesis.getArgumentos() == 2 && 
+				tesis.getIdea().equals("Recomendar asignaturas") && tesis.getArgumentos().length == 2 && 
 				tesis.getConclusion().equals("Se hace trabajo futuro") && tesis.getReferencias().equals("[1] Maquinaria")) {
 			ok = true;
 		}
