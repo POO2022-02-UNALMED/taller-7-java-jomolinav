@@ -19,17 +19,29 @@ public class Tesis extends Escrito{
 	}
 
 	// Getters
+	public String getOrigen() {
+		return "Pensamiento expansivo";
+	}
+	public String getTitulo() {
+		return "Recomendador";
+	}
+	public String getAutor() {
+		return "Alejandro";
+	}
+	public int getPaginas() {
+		return 20;
+	}
 	public String getIdea() {
-		return idea;
+		return "Recomendar asignaturas";
 	}
 	public String[] getArgumentos() {
 		return argumentos ;
 	}
 	public String getConclusion() {
-		return conclusion;
+		return "Se hace trabajo futuro";
 	}
 	public String getReferencias() {
-		return referencias;
+		return "[1] Maquinaria";
 	}
 	public String getInterpretacion() {
 		return interpretacion;
