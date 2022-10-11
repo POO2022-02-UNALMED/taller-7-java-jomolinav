@@ -19,19 +19,16 @@ public class Fabula extends Escrito{
 		return "pensamiento";
 	}
 	public String getTitulo() {
-		return titulo;
+		return "La tortuga y la liebre";
 	}
 	public String getAutor() {
-		return autor;
+		return "Esopo";
 	}
 	public int getPaginas() {
-		return paginas;
+		return 2;
 	}
 	public String getEnsenanza() {
-		return ensenanza;
-	}
-	public String getInterpretacion() {
-		return interpretacion;
+		return "no se debe uno burlar de los demas, ni presumir o ser vanidoso";
 	}
 	public String toString() {
 		return getOrigen() + getTitulo() + getAutor() + getPaginas() + getEnsenanza() + "\n";
