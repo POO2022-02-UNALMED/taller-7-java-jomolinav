@@ -17,7 +17,7 @@ public class Tesis extends Escrito{
 		this.conclusion = conclusion;
 		this.referencias = referencias;
 		this.interpretacion = interpretacion;
-		
+	
 	}
 	
 	public Tesis(String string, String string2, String string3, int i, String string4, String[] strings, String string5,
@@ -29,8 +29,8 @@ public class Tesis extends Escrito{
 	public String getIdea() {
 		return idea;
 	}
-	public int getArgumento(ArrayList argumento) {
-		return 2;
+	public int getArgumentos(ArrayList argumento) {
+		return argole ;
 	}
 	public String getConclusion() {
 		return conclusion;
@@ -57,9 +57,6 @@ public class Tesis extends Escrito{
 	
 	
 	// Methods
-	public int palabrasTotales() {
-		return 0;
-	}
 	public String interpretacion() {
 		return "Prueba";
 	}
